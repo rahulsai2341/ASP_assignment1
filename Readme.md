@@ -6,16 +6,14 @@ This repository contains three codes - Mapper.c, Reducer.c and Combiner.c.
 
 * Combiner uses system calls such as pipe, dup2, fork and exec to combine Mapper and Reducer.
 
-##Instructions##:
+## Instructions ##:
 * Navigate to the folder
 * Run "make"
 * To execute mapper, run "./mapper input.txt"
 * To execute reducer, run "./reducer" and input tuples in STDIN
 * To execute combiner, run "./combiner input.txt"
 
-##Details##:
-Sai Rahul Kasula
-
-sairahulkasula@ufl.edu
-
-4561-7441
+## Details ##:  
+Sai Rahul Kasula  
+sairahulkasula@ufl.edu  
+4561-7441  
