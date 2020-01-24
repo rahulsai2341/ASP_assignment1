@@ -41,7 +41,7 @@ void main(int argc, char * argv[]){
         } 
 
         // Call the mapper program
-        execl("mapper.out", "mapper.out", input_file_name, (char *)NULL);
+        execl("mapper", "mapper", input_file_name, (char *)NULL);
     
     // Parent executes this code
     default:
@@ -76,7 +76,7 @@ void main(int argc, char * argv[]){
         } 
 
         // Call the reducer program
-        execl("reducer.out", "reducer.out", (char *)NULL);
+        execl("reducer", "reducer", (char *)NULL);
     
     // Parent executes this code
     default:
